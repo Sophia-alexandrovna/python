@@ -1,9 +1,0 @@
-a = int(input())
-b = int(input())
-n = int(input())
-h = a*n
-f = (b*n) % 100
-i = (b*n) // 100
-res = h + i
-print(res)
-print(f)
