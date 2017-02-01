@@ -1,0 +1,15 @@
+import sys
+a = {}  # создаем пустой словарь
+s = ''  # создаем пустую строку
+t = set(sys.stdin.read().split())
+for i in t:
+    if i not in a:
+        s += i  # записываем во временную строку этот символ
+    elif i in a:
+         a[s] = a.setdefault[s,0] + 1
+if i in a:
+    m = max(a.values())
+    print(s)
+    print(m)
+else:
+    print("sorry")
